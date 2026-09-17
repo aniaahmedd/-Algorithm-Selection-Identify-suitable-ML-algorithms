@@ -1,0 +1,17 @@
+{
+  "best_model": "Linear SVM",
+  "selection_method": "5-fold cross-validation (see model/comparison_results.json)",
+  "holdout_split_metrics": {
+    "accuracy": 0.9663,
+    "precision": 0.9658,
+    "recall": 0.9663,
+    "f1_score": 0.9658
+  },
+  "train_size": 355,
+  "test_size": 89,
+  "classes": [
+    "SAFE",
+    "SCAM",
+    "SUSPICIOUS"
+  ]
+}
